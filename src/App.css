@@ -37,7 +37,6 @@ body {
   padding: 10px 140px 10px 15px;
   margin-bottom: 25px;
   border-radius: 10px;
-  width: 500px;
 }
 
 .listBG div {
@@ -70,3 +69,18 @@ body {
 .iconW span:hover {
   color: #ff0000;
 }
+
+.btn {
+  background-color: #5dca8e;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 7px #1a7940;
+  margin-top: -5px;
+}
+
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
