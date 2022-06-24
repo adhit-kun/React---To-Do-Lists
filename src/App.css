@@ -2,9 +2,23 @@
   text-align: center;
 }
 
+.headd {
+  font-weight: bold;
+}
+
+.version {
+  font-size: 20px;
+  font-weight:500;
+  color: red;
+  transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  display: inline-block;
+  margin-left: -10px;
+}
+
 body {
-  background-color: coral;
-  color: brown;
+  background-color: #59ABE3;
+  color: #222f3e;
 }
 
 .listBG .done .listText {
@@ -17,21 +31,22 @@ body {
 }
 
 .listNumber {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   display: flex;
   text-align: center;
-  font-size: 14px;
-  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid #999;
+  border: 2px solid #1e272e;
 }
 
 .listBG {
   position: relative;
-  background-color: blue;
+  background-color: #049372;
   font-size: 25px;
   text-align: left;
   padding: 10px 140px 10px 15px;
@@ -82,5 +97,14 @@ body {
   box-shadow: none;
   position: relative;
   top: 7px;
+}
+
+.update {
+  margin-right: 15px;
+  color: #222f3e;
+}
+
+.cancel {
+  color: #222f3e;
 }
 
