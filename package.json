@@ -1,7 +1,8 @@
 {
-  "homepage": "https://adhit-kun.github.io/React-To-Do-Lists/",
+  "homepage": "https://adhit-kun.github.io/React---To-Do-Lists/",
+  
   "name": "to-do-react",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
@@ -16,9 +17,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
