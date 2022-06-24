@@ -2,37 +2,71 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: coral;
+  color: brown;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.listBG .done .listText {
+  opacity: 0.3;
+  text-decoration: line-through;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.listBG .listText {
+  flex: 1;
+}
+
+.listNumber {
+  width: 26px;
+  height: 26px;
   display: flex;
-  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 10px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 50%;
+  border: 1px solid #999;
 }
 
-.App-link {
-  color: #61dafb;
+.listBG {
+  position: relative;
+  background-color: blue;
+  font-size: 25px;
+  text-align: left;
+  padding: 10px 140px 10px 15px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  width: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listBG div {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.iconW {
+  display: inline-block;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 15px;
+  width: auto;
+}
+
+.iconW span {
+  margin: 0px 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: #00ff4c;
+}
+
+.iconW span:hover {
+  color: #ff0000;
 }
